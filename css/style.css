@@ -1,0 +1,96 @@
+/*
+## Title
+
+- QRcode challange by Frontend mentor
+    v1.0
+## Info
+
+- author: Abdallah Mohamed
+- LinkedIn: https://www.linkedin.com/in/abdallahmmu/
+- Github : https://www.github.com/abdallahifox/
+
+*/
+
+/* CSS Preset */
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+    --fw-bold:700;
+    --fw-regular :400
+}
+
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+  }
+  
+  html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--LightGray);
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+
+
+  /* STYLES */
+
+  .flex__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .container{
+    width: 300px;
+    margin: auto;
+    background-color: var(--White);
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .box{
+    padding: 3px;
+  }
+
+  .box__img img{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+
+  .box__content{
+    margin: 5px;
+  }
+
+  .box__content h3{
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: var(--fw-bold);
+    color: var(--DarkBlue);
+  }
+
+
+  .box__content p{
+    text-align: center;
+    margin-bottom: 4px;
+    font-weight: var(--fw-regular);
+    color: var(--GrayishBlue);
+    font-size: 14px;
+  }
+
