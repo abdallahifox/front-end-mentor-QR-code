@@ -1,4 +1,9 @@
-### Frontend Mentor - QR code component Challange
+### installation Guide
+
+1-clone or fork the repo or also you can download it</br>
+2- go to your file and enjoy with the component</br>
+
+### Frontend Mentor - QR code component Challenge
 
 ![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
 
